@@ -388,7 +388,12 @@ body {
 .left {
   width: 532px;
   height: 635px;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 .left .product {
   padding-bottom: 36px;
 }
