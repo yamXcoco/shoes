@@ -30,6 +30,10 @@
 .btn.s {
   width: 92px;
   height: 92px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600px;
+  color: #111;
 }
 .btn.s:hover {
   border: 1px solid #eb5757;
@@ -377,6 +381,7 @@ body {
   height: 61px;
 }
 .ri .buttons button {
+  cursor: pointer;
   margin-right: 10px;
   border: none;
   border-radius: 46px;
@@ -388,7 +393,6 @@ body {
 .left {
   width: 532px;
   height: 635px;
-  /* align-items: center; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -399,10 +403,29 @@ body {
 }
 .left .product p {
   padding-bottom: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600px;
+}
+.left .product h1 {
+  width: 800;
+  font-size: 45px;
+  font-weight: 800px;
+}
+
+.left .product h2 {
+  font-size: 24px;
+  font-weight: 500px;
 }
 .left .text {
   display: flex;
   justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600px;
+}
+.left .text .a1 {
+  text-decoration: underline;
 }
 .square {
   padding-top: 20px;
