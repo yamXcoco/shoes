@@ -79,14 +79,37 @@ body {
 .nav {
   display: flex;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 .nav li a {
+  font-family: "Poppins", sans-serif;
   display: inline-block;
   margin-right: 30px;
+  font-size: 16px;
   font-weight: 400;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  position: relative;
+}
+.nav li a:hover {
+  color: #eb5757;
+}
+.nav li a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #eb5757;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s;
 }
 
+.nav li a:hover::after {
+  width: 100%;
+}
 .top_menu {
   display: flex;
 }
